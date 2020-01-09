@@ -1,0 +1,209 @@
+@media screen and (max-width: 767px) {
+
+	/* Navbar */
+	.navbar.fixed-top {
+	  padding: 0 15px;
+	}
+
+	.navbar .navbar-nav {
+		margin-bottom: 10px;
+	}
+
+	.navbar .navbar-nav li {
+		padding: 8px 0;
+	}
+
+	.navbar-nav li a.nav-link {
+		margin: 0 auto;
+		padding: 5px 20px;
+	}
+
+	/* Carousel Area */
+	.carousel .carousel-item {
+		height: 100%;
+	}
+	.carousel .carousel-item img {
+		width: auto !important;
+		height: 100%;
+	}
+	.carousel .carousel-item .carousel-caption p {
+		font-size: calc(1.2 * 10px);
+	}
+	.carousel .carousel-item .carousel-caption h1 {
+		font-size: calc(1.2 * 48px);
+	}
+	.carousel .carousel-item .carousel-caption .wrap-button a.btn-custom-phone,
+	.carousel .carousel-item .carousel-caption .wrap-button a.btn-custom-email {
+		width: auto;
+		padding: 12px 20px;
+	}
+	.carousel .carousel-item .carousel-caption .wrap-button a.btn-custom-phone {
+		margin-bottom: 0;
+	}
+
+	/* Single Blog Area */
+	.blog-author .author-box {
+		padding: 40px 0;
+	}
+
+	/* Practise Area */
+	.practise-area figure .post-image {
+		min-width: 100%;
+	}
+
+	.practise-area figure.zoomOut-effects .post-info {
+		padding: calc(1.2 * 1.5em);
+	}
+
+	.practise-area figure.zoomOut-effects .post-info h2 {
+		font-size: calc(1.2 * 18px);
+	}
+
+	/* Client Area */
+	.clients-area .carousel .carousel-item {
+	  	height: auto;
+	}
+	.clients-area .carousel .carousel-item img {
+		width: 30% !important;
+		height: 100%;
+	}
+
+	/* Contact Area */
+	.contact-area .detail-contact {
+		margin-top: 35px;
+		padding-left: 0;
+	}
+
+	/* Footer Area */
+	footer .footer-top .widget {
+		margin-bottom: 25px;
+	}
+
+	footer .footer-top .widget .widget-newsletter input,
+	footer .footer-top .widget .widget-newsletter button {
+		font-size: calc(1.2 * 12px);
+		height: calc(1.2 * 38px);
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+	/* Navbar */
+	.navbar-nav li a.nav-link {
+		margin: 0 auto;
+		padding: 10px 20px;
+	}
+	
+	/* Footer Area */
+	footer .footer-top .widget {
+		margin-bottom: 25px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+	/* Practise Area */
+	.practise-area figure .post-image {
+		min-width: 100%;
+	}
+	
+	/* News Area */
+	.news-area figure .post-image {
+		min-width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 577px) {
+
+	/* Navbar */
+	.navbar.fixed-top {
+	  padding: 0 15px;
+	}
+
+	.navbar .navbar-nav {
+		margin-bottom: 10px;
+	}
+
+	.navbar .navbar-nav li {
+		padding: 8px 0;
+	}
+
+	.navbar-nav li a.nav-link {
+		margin: 0 auto;
+		padding: 5px 20px;
+	}
+
+	/* Carousel Area */
+	.carousel .carousel-item {
+		height: 100%;
+	}
+	.carousel .carousel-item img {
+		width: auto !important;
+		height: 100%;
+	}
+	.carousel .carousel-item .carousel-caption h1 {
+		font-size: calc(1.2 * 32px);
+	}
+	.carousel .carousel-item .carousel-caption .wrap-button a.btn-custom-phone,
+	.carousel .carousel-item .carousel-caption .wrap-button a.btn-custom-email {
+		width: 100%;
+		padding: 12px 20px;
+	}
+	.carousel .carousel-item .carousel-caption .wrap-button a.btn-custom-phone {
+		margin-bottom: 10px;
+	}
+
+	/* Client Area */
+	.clients-area .carousel .carousel-item {
+	  	height: auto;
+	}
+	.clients-area .carousel .carousel-item img {
+		width: 30% !important;
+		height: 100%;
+	}
+
+	/* Blog Area */
+	.blog-area .post-item .post-info {}
+
+	/* Single Blog Area */
+	.blog-author .author-box {
+		padding: 40px 0;
+	}
+	.comment-list .comment.reply {
+	    margin-left: 30px;
+	}
+
+
+	/* Practise Area */
+	.practise-area figure .post-image {
+		min-width: 100%;
+	}
+
+	.practise-area figure.zoomOut-effects .post-info {
+		padding: calc(1.2 * 2em);
+	}
+
+	/* Contact Area */
+	.contact-area .detail-contact {
+		margin-top: 35px;
+		padding-left: 0;
+	}
+
+	/* Footer Area */
+	footer .footer-top .widget {
+		margin-bottom: 25px;
+	}
+
+	footer .footer-top .widget .widget-newsletter input,
+	footer .footer-top .widget .widget-newsletter button {
+		font-size: calc(1.2 * 12px);
+		height: calc(1.2 * 38px);
+		border: 0;
+	}
+
+}

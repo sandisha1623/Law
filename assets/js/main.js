@@ -37,12 +37,12 @@ $(function() {
     });
 
     // scrollUp
-    /*$.scrollUp({
+    $.scrollUp({
         scrollText: '<i class="fa fa-angle-up"></i>',
         easingType: 'linear',
         scrollSpeed: 900,
         animation: 'fade'
-    });*/
+    });
 
     // Instafeed Active 
     if($('#Instafeed').length) {
